@@ -51,6 +51,16 @@ public class Word {
         return mMiwokTranslation;
     }
 
+    @Override
+    public String toString() {
+        return "Word{" +
+                "mDefaultTranslation='" + mDefaultTranslation + '\'' +
+                ", mMiwokTranslation='" + mMiwokTranslation + '\'' +
+                ", mAudioResourceId=" + mAudioResourceId +
+                ", mImageResourceId=" + mImageResourceId +
+                '}';
+    }
+
     public int getImageResourceId() {
         return mImageResourceId;
     }
